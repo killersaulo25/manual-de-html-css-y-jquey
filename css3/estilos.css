@@ -1,0 +1,170 @@
+ b{
+	text-align: center;
+	color:black;
+}
+
+.contenedor {
+
+	width: 100%
+}
+
+
+u{
+color:red;
+display:table-cell;
+padding: 20px
+}
+
+nav	{
+
+
+
+	float:right;
+	margin-right: 100px;
+	      }
+
+h5{
+color:white;
+display:table-cell;
+padding: 20px
+}
+h3{
+
+	text-align: center;
+}
+h5{
+
+	text-align: left;
+}
+
+
+#colorefondo{
+	 background-color: orange;	
+	}
+	
+	#colorefondo1{
+	 background-color: orange;	
+	}
+  p {
+    font-size: 1.5em;
+    color: #6A0212;
+    background-color: 534E4E;
+       }
+
+ p {
+  background-image: url(img/);
+
+}
+
+
+
+
+
+	p{
+
+text-align: center;
+color: 232B99;
+
+
+	}
+#miestilo{
+	color: red;
+
+}
+
+#mistilo2{
+
+	color: red;
+}
+
+#miestilo3{
+	color: blue;
+}
+h1{
+	text-align: center;
+}
+
+#mistilo4{
+	color:red;
+}
+
+#mistilo5{
+	color:red;
+}
+
+#mistilo6{
+	color:red;
+}
+#mistilo7{
+	color:red;
+}
+#mistilo8{
+	color:red;
+}
+
+#mistilo9{
+	color:red;
+}
+#mistilo10{
+	color:red;
+}
+#mistilo11{
+	color:red;
+	}
+#mistilo12{
+	color:red;
+}
+#mistilo13{
+	color:red;
+}
+}
+#mistilo13{
+	color:red;
+}
+}
+#mistilo15{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+#imagen{
+	color:purple;
+}
+#colorefondo121{
+	 background-color: red;
+}
+#colorefondo2{
+	 background-color: orange;
+}
+#colorefondo3{
+	 background-color: blue;
+}
+#colorefondo4{
+	 background-color:  green;
+}
+#colorefondo5{
+	 background-color:gray;
+}
+#colorefondo6{
+	 background-color: purple;
+}
+#colorefondo7{
+	 background-color: violet;
+}
+#colorefondo8{
+	 background-color:pink;
+}
+
+section{
+	background: yellow;
+}
+

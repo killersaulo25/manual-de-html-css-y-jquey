@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MANUAL DE CSS Y JQUERY</title>
+	<link rel="stylesheet" href="css3/estilos.css">
+	<body bgcolor="E3DFDF">
+		<font color="595959">
+
+<style>
+/*s
+section{
+	background: yellow;
+}
+	
+	#colorefondo{
+	 background-color: yellow;	
+	}
+	
+	#colorefondo1{
+	 background-color: yellow;	
+	}
+  p {
+    font-size: 1.5em;
+    color: #6A0212;
+    background-color: 534E4E;
+       }
+
+ p {
+  background-image: url(img/002.jpg.png);
+
+}
+
+
+
+
+
+	p{
+
+text-align: center;
+color: 232B99;
+
+
+	}
+#miestilo{
+	color: red;
+
+}
+
+#mistilo2{
+
+	color: red;
+}
+
+#miestilo3{
+	color: blue;
+}
+h1{
+	text-align: center;
+}
+
+#mistilo4{
+	color:red;
+}
+
+#mistilo5{
+	color:red;
+}
+
+#mistilo6{
+	color:red;
+}
+#mistilo7{
+	color:red;
+}
+#mistilo8{
+	color:red;
+}
+
+#mistilo9{
+	color:red;
+}
+#mistilo10{
+	color:red;
+}
+#mistilo11{
+	color:red;
+}
+#imagen{
+	color:purple;
+}
+#colorefondo121{
+	 background-color: red;
+}
+#colorefondo2{
+	 background-color: orange;
+}
+#colorefondo3{
+	 background-color: blue;
+}
+#colorefondo4{
+	 background-color:  green;
+}
+#colorefondo5{
+	 background-color:gray;
+}
+#colorefondo6{
+	 background-color: purple;
+}
+#colorefondo7{
+	 background-color: violet;
+}
+#colorefondo8{
+	 background-color:pink;
+}
+
+*/
+
+</style>
+
+
+
+
+	<section>
+	
+	<h3 id="fondo"><img src="imagenes/logo2.jpg" alt=""
+	width="200"
+    height="200"></h3>
+   
+    <ul>
+    	<u>
+    	<li><h5><a href="">INICIO</a>   </h5>  </li>
+    	<li><h5><a href="">NUESTRA UNIVERSIDAD</a></h5>  </li>
+    	<li><h5><a href="">CARRERAS</a></h5>  </li>
+    	<li><h5><a href="">SISTEMA ACADEMICO</a></h5></li>
+    	<li><h5><a href="">POsTULATE</a></h5>     </li>
+    	<li><h5><a href="">ENLACES</a></h5>  </li>
+    	<li><h5><a href="">PAGOS</a> </h5> </li>
+    	<li><h5><a href="">STORE</a> </h5> </li>
+    	<li><h5><a href="">CONTACTANOS</a></h5>  </li>
+
+
+
+
+
+
+
+    </u>
+
+
+
+
+
+
+</ul>
+	
+
+
+</section>
+</head>
+<header>
+	
+	<h1 id="colorefondo" style="color:black">SEGUNDO PARCIAL: SAULO SANTIAGO RODRIGUEZ CARRASCO
+	</h1>
+	<h1 id="colorefondo1"style="color:black">MANUAL DE CSS Y JQUERY
+	</h1>
+</header>
+<body>
+	<div>
+		<ul>
+		
+			<P><h1 id="miestilo3">Tres formas de insertar CSS ,
+			Hay tres formas de insertar una hoja de estilo:</h1></P>
+
+<P><a href="">1 CSS externo</a></P>
+<P><a href="">2 CSS interno</a></P>
+<P><a href="">3 CSS en línea</a></P>
+<li><p><h2 id="miestilo"> <u>REGLA NRO  1 CSS externo</u> </h2></P>
+	<p><h4>Con una hoja de estilo externa, puede cambiar el aspecto de un sitio web completo cambiando solo un archivo.</h1></p>
+	<p><h4>Cada página HTML debe incluir una referencia al archivo de hoja de estilo externo dentro del elemento link, dentro de la sección del encabezado.</h4></p>
+
+<p><h4>Los estilos externos se definen dentro del elemento link, dentro de la sección head de una página HTML:</h4></P>
+	<p> Ejemplo</P>
+<p>!DOCTYPE html></P>
+<p>html></P>
+<p>head></p>
+<p>link rel="stylesheet" href="mystyle.css"></p>
+<p>/head></p>
+<p>body></p>
+
+<p>h1>This is a heading</h1></p>
+<p>p>This is a paragraph.</p></p>
+<p>/head></p>
+<p>body></p>
+
+
+
+
+			 
+			
+
+
+
+
+
+
+				 
+<p><h4>Una hoja de estilo externa se puede escribir en cualquier editor de texto y debe guardarse con una extensión .css.</h4></p>
+
+<p><h4>El archivo .css externo no debe contener etiquetas HTML.
+
+Así es como se ve el archivo "mystyle.css":</h4></p>
+
+<P>"mystyle.css"</P>
+<P>body {
+  background-color: lightblue;
+}</P>
+<P>h1 {
+  color: navy;
+  margin-left: 20px;
+}</P>
+
+			</li>
+			<li>
+						<p><h2 id="mistilo2"><u>REGLA NRO 2 CSS INTERNO</u></h4></p> 
+			<p><h4>CSS interno</h4></p>
+
+<P><h4>Se puede utilizar una hoja de estilo interna si una sola página HTML tiene un estilo único.
+
+El estilo interno se define dentro del elemento style, dentro de la sección de cabecera.</h4></P>
+
+<p><h4>Los estilos internos se definen dentro del elemento style, dentro de la sección head de una página HTML:</h4></p>
+<p>Ejemplo:</p>
+<p>!DOCTYPE html></p>
+<p>html></p>
+<p>head></p>
+<p>style></p>
+<p>body {</p>
+<p>  background-color: linen;
+}
+</p>
+<p>h1 {</p>
+<p>  color: maroon;
+  margin-left: 40px;</p>
+<p>/style></p>
+<p>/head></p>
+<p>h1>This is a heading/h1></p>
+<p>p>This is a paragraph.</p></p>
+<p>/body></p>
+<p>/html></p>
+
+</li>
+			<li>
+				<p><h2 id="mistilo4"><u>REGLA NRO 3 CSS EN LINEA</u></h4></p> 
+			<p><h4>CSS en linea</h4></p>
+
+<P><h4>Se puede usar un estilo en línea para aplicar un estilo único a un solo elemento.
+Para usar estilos en línea, agregue el atributo de estilo al elemento relevante. El atributo de estilo puede contener cualquier propiedad CSS.</h4></P>
+
+<p><h4>Los estilos en línea se definen dentro del atributo "estilo" del elemento relevante:</h4></p>
+<p>Ejemplo:</p>
+<p>!DOCTYPE html></p>
+<p>html></p>
+<p>head></p>
+<p>body></p>
+
+
+<p> h1 style="color:blue;text-align:center;">This is a heading</h1></p>
+<p>p style="color:red;">This is a paragraph./p>
+</p>
+<p>/body></p>
+<p>/html></p>
+				
+
+
+
+
+
+			</li>
+			<li>
+				<p><h2 id="mistilo5"><u>Regla 4 Hojas de estilo múltiple</u></h4></p> 
+				
+<p><h4>Si se han definido algunas propiedades para el mismo selector (elemento) en diferentes hojas de estilo, se utilizará el valor de la última hoja de estilo leída. </h4></p>
+<p><h4>Suponga que una hoja de estilo externa tiene el siguiente estilo para el elemento h1>:</p></h4>
+<p><h4></h4>h1 {</h4></p>
+  <p><h4>color: navy;
+}</h4></p>
+<p>Ejemplo</p>
+	<p><h4>Si el estilo interno se define después del enlace a la hoja de estilo externa, los elementos h1 serán "naranja":</h4></p>
+
+<p>head></p>
+<p>link rel="stylesheet" type="text/css" href="mystyle.css"></p>
+<p>style></p>
+<p>h1 {</p>
+ <p> color: orange;
+}</p>
+<p>/style></p>
+<p>/head></p>
+	<p><h4>Sin embargo, si el estilo interno se define antes del enlace a la hoja de estilo externa, los elementos h1> serán "azul marino": </h4></p>
+
+<p>Ejemplo</p>
+<p>head></p>
+<p>style></p>
+<p>h1 {</p>
+<p>olor: orange;</p>
+<p>}</p>
+<p>/style></p>
+<p>link rel="stylesheet" type="text/css" href="mystyle.css"></p>
+<p>/head>
+</p>
+
+
+
+
+
+
+			</li>
+			<li>
+				<p><h2 id="mistilo6"><u>Regla 5 Orden en cascada</u></h4></p> 
+<p><h4>¿Qué estilo se utilizará cuando haya más de un estilo especificado para un elemento HTML?</h4></p>
+
+<h4></p>Todos los estilos de una página se convertirán en una "cascada" en una nueva hoja de estilo "virtual" según las siguientes reglas, donde el número uno tiene la máxima prioridad:</h4></p>
+
+<h4></p>1.-Estilo en línea (dentro de un elemento HTML)</h4></p>
+          <h4></p>2.-Hojas de estilo externas e internas (en la sección de cabecera)</h4></p>
+          <h4></p>3.-Predeterminado del navegador</h4></p>
+          <h4></p>Por lo tanto, un estilo en línea tiene la máxima prioridad y anulará los estilos externos e internos y los valores predeterminados del navegador. </h4></p>
+
+
+
+
+
+			</li>
+
+			<li>
+				<p><h2 id="mistilo7"><u>Regla 6 Comentario en CC3</u> </h2></p> 
+				
+<p><h4>Los comentarios CSS no se muestran en el navegador, pero pueden ayudar a documentar su código fuente</h4></p>
+	Los comentarios se utilizan para explicar el código y pueden ayudar cuando edite el código fuente en una fecha posterior.
+
+</h4></p>Los navegadores ignoran los comentarios.</h4></p>
+
+</h4></p>Se coloca un comentario CSS dentro del style>elemento y comienza con /*y termina con */:</h4></p>
+<p>Ejemplo</p>
+<p>/* This is a single-line comment */</p>
+<p>p {</p>
+<p>color: red;</p>
+<p>}</p>
+</h4></p>Puede agregar comentarios donde quiera en el código:</h4></p>
+
+<p>p {</p>
+ <p> color: red;  /* Set text color to red */</p>
+<p>}</p>
+
+</h4></p>Los comentarios también pueden abarcar varias líneas: </h4></p>
+<p>Ejemplo</p>
+
+
+<p>/* This is</p>
+<p>a multi-line</p>
+<p>comment */</p>
+
+<p>p {</p>
+ <p> color: red;</p>
+<p>}</p>
+
+
+
+
+
+			</li>
+			<li>
+			<p><h2 id="mistilo8"><u>Regla 7 Comentarios HTML y CSS</u> </h4></p> 
+
+<p><h4>En el tutorial de HTML, aprendió que puede agregar comentarios a su fuente HTML </h4></p>
+<p><h4>usando la <!--...-->sintaxis.</h4></p>
+
+<p><h4>En el siguiente ejemplo, usamos una combinación de comentarios HTML y CSS: </h4></p>
+			
+
+<p>Ejemplo</p>
+
+<p>!DOCTYPE html></p>
+<p>html></p>
+<p>head></p>
+<p>style></p>
+<p>p {</p>
+<p>  color: red; /* Set text color to red */</p>
+<p>}</p>
+<p>/style></p>
+<p>/head></p>
+<p>body></p>
+
+<p>h2>My Heading</h2></p>
+
+<p><!- These paragraphs will be red --></p>
+<p>p>Hello World!</p></p>
+<p>/p><p>This paragraph is styled with CSS.</p></p></p>
+<p>p>CSS comments are not shown in the output.</p></p>
+
+<p>/body></p>
+<p>/html></p>
+</li>
+
+
+
+
+			<li>
+				<p><h2 id="mistilo9"><u>Regla 8 Colores CSS</u></h4></p> 
+
+				<p><h4>Los colores se especifican utilizando nombres de colores predefinidos o valores RGB, HEX, HSL, RGBA, HSLA. </h4></p>
+<p><h4>Nombres de colores CSS </h4></p>
+<p><h4 id="image">En CSS, se puede especificar un color mediante el uso de un nombre de color predefinido: </h4></p>
+
+
+
+	
+	<h2 id="fondo"><img src="imagenes/2.png" alt=""
+	width="600"
+    height="400"></h2>
+	<h1 id="colorefondo121" style="color:white">TOMATE</h1>
+		<h1 id="colorefondo2" style="color:white">NARAMJA</h1>
+		<h1 id="colorefondo3" style="color:white">blue</h1>
+		<h1 id="colorefondo4" style="color:white">GREEN</h1>
+		<h1 id="colorefondo5" style="color:white">GRAY</h1>
+		<h1 id="colorefondo6" style="color:white">PURPLE</h1>
+	    <h1 id="colorefondo7" style="color:white">VIOLET</h1>
+		<h1 id="colorefondo8" style="color:white">PINK</h1>
+	
+
+			</li>
+			<li>
+				
+<p><h2 id="mistilo10"><u>Regla 9 Color de texto CSS</u></h2></p> 
+
+<h4><p style="color:brown;"> Hola Mundo </h4></p>
+ <h4><p><h2 style="color:green;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </h2></p>
+ 	<p>Ejemplo</p>
+
+
+    <p>h1 style="color:Tomato;">Hello World/h1></p>
+<p>p style="color:DodgerBlue;">Lorem ipsum.../p></p>
+<p>p style="color:MediumSeaGreen;">Ut wisi enim.../p></p>
+ <p> h1 style="color:Tomato;">Hello World/h1</p>
+<p>p style="color:DodgerBlue;">Lorem ipsum.../p></p>
+<p>p style="color:MediumSeaGreen;">Ut wisi enim.../p></p>
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+			</li>
+			<li>
+				<p><h2 id="mistilo11"><u>Regla 10 Color de borde CSS</u></h2></p> 
+<p><h4>Puede establecer el color de los bordes: </h4></p>
+<p>Ejemplo</p>	
+
+	
+<p>	<</p>
+	<p>h1 style="border:2px solid Tomato;">programacion< /h1></p>
+<p><</p>
+<p>h1 style="border:2px solid DodgerBlue;">calculo</h1></p>
+<p><</p>
+<p>h1 style="border:2px solid Violet;">base de datos</h1></p>
+	
+
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+<p><u>
+			MANUAL DE JQUERY</u> </p>
+
+<li>
+	<button type="bytton" onclick="adicionar()"	>ingrese pin</button>
+	<button type="bytton"onclick="eliminar()">desplegar libros</button>
+	<button type="bytton"onclick="eliminar()">codigo de libros</button>
+	<button type="bytton"onclick="eliminar()">ingrese usuario</button>
+
+
+	    <li>ingrese nombe</li>
+		<li>ingrese numero de CI</li>
+		<li>Ingrese telefono </li>
+		<li>Ingrese celular</li>
+		<li>Ingrese correo ekectronico</li>
+		<li>crear usuario</li>
+
+<style type="text/css">
+	
+	.contenido{
+
+		height: 300px;
+	}
+
+.caja{
+	background:brown;
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin-top: 20px;
+	position: absolute;
+
+}
+
+
+</style>
+
+
+
+			<li>
+				
+
+				<p><h2 id="mistilo12"><u>Regla 1 Modificar varios valores de atributos a la vez</u></h2></p> 
+<p><h4>También podemos utilizar el método attr() pasando un objeto con pares atributo/valor. Esto sirve para modificar de una sola vez varios atributos sobre los elementos que haya en un objeto jQuery y si esos atributos no existían, simplemente los crea con los valores enviados en el objeto.
+A estas alturas ya debemos saber crear variables con notación objeto, pero voy a dejar un ejemplo para que se pueda ver perfectamente este uso del método.
+
+Imaginar que tenemos varios enlaces en la página, y que queremos modificar sus atributos, para todos los enlaces a la vez. </h4></p>
+<p>Ejemplo</p>	
+
+<p>$('a')</p>
+<p>
+.attr({</p>
+
+   <p>
+'title': 'Title modificado por jQuery',</p>
+
+   <p>
+'href': 'http://www.desarrolloweb.com',</p>
+
+  <p>
+ 'style': 'color: #f80'
+});</p>
+
+
+
+
+
+
+
+			</li>
+			<li>
+				
+
+				<p><h2 id="mistilo14"><u>Regla 2 Modificar un atributo</u></h2></p> 
+<p><h4>Ahora vamos a ver un uso de attr() en el que no leemos el atributo, sino que lo modificamos. En este caso la función recibe dos cadenas de texto, la primera con el nombre del atributo y la segunda con el nuevo valor que queremos asignar.. </h4></p>
+<p>Ejemplo</p>	
+
+<p>$('li').attr("type", "square");</p>
+
+</li>
+			
+			<li>
+				
+
+				<p><h2 id="mistilo15"><u>Regla 3 Lectura de un atributo</u></h2></p> 
+<p><h4>El primer uso de attr() es para recuperar el valor de un atributo. En este caso, el método debe recibir una cadena con el nombre del atributo que queremos recuperar.
+
+Ahora podríamos acceder a lo que hay escrito en el campo de texto de la siguiente manera:
+
+$("#campotexto").attr("value")</h4></p>
+<p>Ejemplo</p>	
+
+<p>$("#campotexto").attr("value");</p>
+
+</li>
+
+			<li>
+		<p><h2 id="mistilo16"><u>Regla 4 Asignar un valor de atributo procesado por una función</u></h2></p> 
+<p><h4>Podemos también enviar una función para procesar el valor que queremos asignar a un atributo. Para ello enviamos a attr() dos parámetros, el primero con el nombre del atributo y el segundo con la función que debe devolver el valor a asignar a dicho atributo.
+Para ilustrar este uso de attr() mostraremos un ejemplo en el que desde jQuery accedemos a los elementos INPUT de la página que tienen la clase CSS "fecha" y le insertamos como texto a mostrar la fecha de hoy. Para obtener el día actual necesitamos procesar cierto código Javascript y para ello crearemos una función que devuelve la cadena de texto con la fecha.</h4></p>
+<p>Ejemplo</p>	
+
+<p>$('input.fecha').attr("value", function(indiceArray){</p>	
+  <p>	 //indiceArray tiene el índice de este elemento en el objeto jQuery</p>	
+   <p>var f = new Date();</p>
+   <p>	return f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear();</p>	
+<p>	});</p>	
+
+<p>	Para que se asimile mejor el uso de jQuery en una página, mostramos el código completo de este ejemplo.</p>	
+
+<p>	< html></p>
+<p>	< head></p>
+  <p> < title>método attr</ title></p>
+   <p>< script src="../jquery-1.3.2.min.js" type="text/javascript"></ script></p>
+<p>< script></p>
+<p>$(document).ready(function(){</p>
+   
+   <p>$('input.fecha').attr("value", function(indiceArray){</p>
+      <p>//indiceArray tiene el índice de este elemento en el objeto jQuery</p>
+      <p>return f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear();
+   });<p>
+   
+<p>});
+</ script>
+</ head></p>
+
+ <p>< body></p>
+<p>< form></p>
+ <p>< input type="text" class="fecha"></p>
+<p>< input type="text" class="nofecha"></p>
+<p>< /p>< input type="text" class="fecha"></p>
+<p></ form></p>
+
+<p></ body></p>
+<p></ html>< /p ></p>
+	
+	
+			</li>
+		
+<section>
+		<p><b>
+			derechos reservadp copirigth@saulorodrigues
+		     diseño de pagina </b></p>
+	<h3 id="fondo"><img src="imagenes/4.png" alt=""
+	width="700"
+    height="400"></h3>
+   
+    <ul>
+    	<u>
+    	<li><h1><a href="">watsap</a>   </h1>  </li>
+    	<li><h1><a href="">utb@.edu.bo</a></h1>  </li>
+    	<li><h1><a href="">7777845-788922-55522</a></h1>  </li>
+    	<li><h1><a href="">casilla485</a></h1></li>
+    	<li><h1><a href="">fax-4654184614</a></h1>  </li>
+    	
+    </u>
+</ul>
+	
+
+
+</section>
+
+	
+</body>
+</html>
